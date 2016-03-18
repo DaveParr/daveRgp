@@ -1,0 +1,13 @@
+Package: daveRgp
+Type: Package
+Title: Useful bits and pieces for myself
+Version: 0.1.0
+Author: DaveRGP
+Maintainer: DaveRGP <DavidRGParr@gmail.com>
+Description: Collection of other peoples functions and my own as well at some point
+License: What license is it under?
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Imports:
+  knitr
+
