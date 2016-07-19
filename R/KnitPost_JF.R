@@ -1,4 +1,4 @@
-#' simply knits .md to .rmd
+#' Simply knits .md to .rmd
 #'
 #' http://jfisher-usgs.github.io/
 #'
@@ -8,7 +8,7 @@
 #' @author j Fisher
 #' @export
 #'
-KnitPost <- function(input, base.url = "/") {
+KnitPost_JF <- function(input, base.url = "/") {
   require(knitr)
   opts_knit$set(base.url = base.url)
   fig.path <- paste0("figs/", sub(".Rmd$", "", basename(input)), "/")
