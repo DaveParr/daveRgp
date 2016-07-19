@@ -4,7 +4,7 @@
 #' by default). It will change the published parameter to 'true' and change the
 #' status parameter to 'publish'.
 #'
-#'http://andysouth.github.io/blog-setup/
+#' http://andysouth.github.io/blog-setup/
 #'
 #' @param path_site path to the local root storing the site files
 #' @param dir_rmd directory containing R Markdown files (inputs)
