@@ -4,6 +4,8 @@
 #' by default). It will change the published parameter to 'true' and change the
 #' status parameter to 'publish'.
 #'
+#'http://andysouth.github.io/blog-setup/
+#'
 #' @param path_site path to the local root storing the site files
 #' @param dir_rmd directory containing R Markdown files (inputs)
 #' @param dir_md directory containing markdown files (outputs)
@@ -13,6 +15,8 @@
 #' @param recursive should rmd files in subdirectories be processed.
 #' @return nothing.
 #' @author Jason Bryer <jason@bryer.org> edited by Andy South
+#' @export
+#'
 rmd2md <- function( path_site = getwd(),
                     dir_rmd = "_rmd",
                     dir_md = "_posts",

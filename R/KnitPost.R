@@ -6,6 +6,8 @@
 #' @param base.url some other thing
 #' @return .md into directory
 #' @author j Fisher
+#' @export
+#'
 KnitPost <- function(input, base.url = "/") {
   require(knitr)
   opts_knit$set(base.url = base.url)

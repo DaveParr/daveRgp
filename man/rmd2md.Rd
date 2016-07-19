@@ -31,11 +31,7 @@ rmd2md(path_site = getwd(), dir_rmd = "_rmd", dir_md = "_posts",
 nothing.
 }
 \description{
-This R script will process all R mardown files (those with in_ext file extention,
-.rmd by default) in the current working directory. Files with a status of
-'processed' will be converted to markdown (with out_ext file extention, '.markdown'
-by default). It will change the published parameter to 'true' and change the
-status parameter to 'publish'.
+http://andysouth.github.io/blog-setup/
 }
 \author{
 Jason Bryer <jason@bryer.org> edited by Andy South
