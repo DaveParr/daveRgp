@@ -35,7 +35,7 @@ KnitPost_AB <- function(site.path="C:/Users/asus/Documents/GitHub/Pokemon_FieldS
 
   render_jekyll(highlight = "pygments")
   opts_knit$set(base.url = '/', base.dir = site.path)
-  opts_chunk$set(fig.path=paste0(site.path,fig.dir), fig.width=8.5, fig.height=5.25, dev='svg', cache=F,
+  opts_chunk$set(fig.path=fig.dir, fig.width=8.5, fig.height=5.25, dev='svg', cache=F,
                  warning=F, message=F, cache.path=cache.path, tidy=F)
 
 
